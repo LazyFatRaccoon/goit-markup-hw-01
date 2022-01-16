@@ -5,6 +5,7 @@ header {
 }
 body {
   background-color: teal;
+  
 }
 span {
   /* color: rgb(25, 138, 236); */
@@ -14,7 +15,7 @@ span {
 .hat {
   text-align: center;
 
-  color: #fff;
+  color: rebeccapurple;
 
   background: #2f303a;
   height: 600px;
