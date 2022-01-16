@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  background: yellow;
+}
+body {
+  background-color: teal;
+}
+span {
+  /* color: rgb(25, 138, 236); */
+  border: 1px solid red;
+}
+
+.hat {
+  text-align: center;
+
+  color: #fff;
+
+  background: #2f303a;
+  height: 600px;
+}
+.button {
+  margin: auto;
+}
