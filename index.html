@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="style.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 </head>
 
@@ -13,20 +13,102 @@
     <header>
         <span>WebStudio</span>
         <nav>
-            <span> <a href=""> Студия </a> </span>
-            <span> Портфолио </span>
-            <span> Контакты </span>
+            <ul>
+                <li> <a href="#"> Студия </a> </li>
+                <li> <a href="#"> Портфолио </a> </li>
+                <li> <a href="#"> Контакты</a> </li>
+            </ul>
         </nav>
         <span> <a href="mailto:info@devstudio.com">info@devstudio.com</a> </span>
-        <span> +38 096 111 11 11</span>
+        <span> <a href="tel:+380961111111">+38 096 111 11 11</a></span>
     </header>
-    <div class="hat"> 
-        <span><h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ <br> ВАШЕГО БИЗНЕСА</h1> </span>
-        <div>
-        <button class="button">Заказать услугу</button>
-        </div>
-    </div>
+    <main>
+        <section class="hat">
+            <span>
+                <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ <br> ВАШЕГО БИЗНЕСА</h1>
+            </span>
+            <div>
+                <button class="button">Заказать услугу</button>
+            </div>
+        </section>
+        <section class="peculiarities">
+            <ul>
+                <li>
+                    <span>Внимание к деталям</span>
+                    <span>Идейные соображения, а также начало повседневной работы по формированию позиции.</span>
+                </li>
+                <li>
+                    <span>Пунктуальность</span>
+                    <span>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</span>
+                </li>
+                <li>
+                    <span>Планирование</span>
+                    <span>Равным образом консультация с широким активом в значительной степени обуславливает.</span>
+                </li>
+                <li>
+                    <span>Современные технологии</span>
+                    <span>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</span>
+                </li>
+            </ul>
+        </section>
+        <section class="whatWeDo">
+            <span>
+                <h2>Чем мы занимаемся</h2>
+            </span>
+            <img src='./images/image1.jpg' alt="процесс кодинга">
+            <img src='./images/image2.jpg' alt="разработка макета">
+            <img src='./images/image3.jpg' alt="выбор цветовой палитры">
+        </section>
+        <section class="ourTeam" display="inline">
+            <span>
+                <h2>Наша команда</h2>
+            </span>
+            <figure>
+                <img src='./images/employee1.jpg' alt="процесс кодинга" width="270px" height="260px">
+                <figcaption>
+                    Игорь Демьяненко
+                </figcaption>
+                <figcaption>
+                    Product Designer
+                </figcaption>
+            </figure>
+            <figure>
+                <img src='./images/employee2.jpg' alt="процесс кодинга" width="270px" height="260px">
+                <figcaption>
+                    Ольга Репина
+                </figcaption>
+                <figcaption>
+                    Frontend Developer
+                </figcaption>
+            </figure>
+            <figure>
+                <img src='./images/employee3.jpg' alt="процесс кодинга" width="270px" height="260px">
+                <figcaption>
+                    Николай Тарасов
+                </figcaption>
+                <figcaption>
+                    Marketing
+                </figcaption>
+            </figure>
+            <figure>
+                <img src='./images/employee4.jpg' alt="процесс кодинга" width="270px" height="260px">
+                <figcaption>
+                    Михаил Ермаков
+                </figcaption>
+                <figcaption>
+                    Frontend Developer
+                </figcaption>
+            </figure>
+        </section>
 
+    </main>
+    <footer>
+        <span>WebStudio</span>
+        <address>г. Киев, пр-т Леси Украинки, 26</address>
+        <span> <a href="mailto:info@devstudio.com">info@devstudio.com</a> </span>
+        <span> <a href="tel:+380961111111">+38 096 111 11 11</a></span>
+
+    </footer>
 </body>
 
 </html>
